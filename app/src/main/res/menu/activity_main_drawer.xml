@@ -7,14 +7,14 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/cargar"
-            android:title="@string/cargar_producto" />
+            android:title="Cargar" />
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/lista"
-            android:title="@string/ver_productos" />
+            android:title="Listar" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/salir"
-            android:title="Salir" />
+            android:title="@string/salir" />
     </group>
 </menu>

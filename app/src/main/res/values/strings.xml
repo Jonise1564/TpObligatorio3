@@ -16,4 +16,5 @@
     <string name="c_digo_del_producto">Código del producto</string>
     <string name="cargar_producto">Cargar Producto</string>
     <string name="ver_productos">Ver Productos</string>
+    <string name="salir">Salir</string>
 </resources>
