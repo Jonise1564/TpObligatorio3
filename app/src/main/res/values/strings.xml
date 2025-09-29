@@ -17,4 +17,6 @@
     <string name="cargar_producto">Cargar Producto</string>
     <string name="ver_productos">Ver Productos</string>
     <string name="salir">Salir</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

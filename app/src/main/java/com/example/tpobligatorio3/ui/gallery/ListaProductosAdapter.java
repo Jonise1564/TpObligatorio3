@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.tpobligatorio3.R;
 import com.example.tpobligatorio3.model.Producto;
+import com.example.tpobligatorio3.model.RepositorioProductos;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
@@ -31,6 +32,8 @@ public class ListaProductosAdapter extends RecyclerView.Adapter<ListaProductosAd
         this.lista = lista;
         this.li = li;
         this.context = context;
+        //Cargar productos en el repositorio
+        RepositorioProductos.cargarProductos(lista);
     }
 
     @NonNull

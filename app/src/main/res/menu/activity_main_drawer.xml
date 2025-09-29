@@ -4,6 +4,12 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_busqueda"
+            android:icon="@drawable/buscar"
+            android:title="Búsqueda" />
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/cargar"

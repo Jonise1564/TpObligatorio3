@@ -6,6 +6,26 @@
     app:startDestination="@+id/nav_home">
 
     <fragment
+        android:id="@+id/nav_busqueda"
+        android:name="com.example.tpobligatorio3.ui.busqueda.BusquedaFragment"
+        android:label="Búsqueda"
+        tools:layout="@layout/fragment_busqueda" >
+        <action
+            android:id="@+id/action_nav_busqueda_to_nav_detalle_producto"
+            app:destination="@id/nav_detalle_producto" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_detalle_producto"
+        android:name="com.example.tpobligatorio3.ui.detalle.DetalleProductoFragment"
+        android:label="Detalle del Producto"
+        tools:layout="@layout/fragment_detalle_producto" >
+        <action
+            android:id="@+id/action_nav_detalle_producto_to_nav_busqueda"
+            app:destination="@id/nav_busqueda" />
+    </fragment>
+
+    <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.tpobligatorio3.ui.gallery.GalleryFragment"
         android:label="Productos"
